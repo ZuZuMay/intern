@@ -14,7 +14,8 @@ console.log("11:"+str.padEnd(20,"%"))
 console.log("12:"+str.replace("student","teacher"))
 console.log("13:"+sco.replace(/i/g,"a"))
 console.log("14:"+sco.startsWith("is",3))
-
+console.log("15:"+str.includes("I"))
+console.log("15:"+str.includes("I",2))
 
 
 

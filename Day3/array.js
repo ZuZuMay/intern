@@ -11,7 +11,7 @@ console.log("5:"+fruits.pop());
 console.log("6:"+fruits.push("Kiwi"));
 console.log("7:"+fruits.shift());
 console.log("8:"+fruits.unshift("lemon"));
-//console.log(delete fruits[2]);
+console.log(delete fruits[2]);
 console.log("9:"+animals.concat(fruits))
 console.log("10:"+animals.concat(fruits,location))
 console.log("11:"+animals.copyWithin(1,0))
@@ -23,7 +23,6 @@ console.log("16:"+num1.findIndex(great))
 function great(n){
     return n>4;
 }
-//console.log(fruits.keys(2))
 console.log("17:"+animals.sort())
 console.log("18:"+fruits.reverse())
 console.log("19:"+num1.filter(great))
@@ -31,6 +30,14 @@ console.log("20:"+fruits.includes("Apple"))
 console.log("21:"+num1.some(great))
 //const list=fruits.entries()
 console.log("22:"+num1.toLocaleString())
-//console.log("24:"+f)
-//const list1 = fruits.values();
-
+let text1 = "";
+for (const a of fruits.values()) {
+  text1 += a;
+  console.log("23:"+text1)
+}
+const keys=fruits.keys()
+let text = "";
+for (let x of keys) {
+  text += x ;
+  console.log("24:"+text)
+}
