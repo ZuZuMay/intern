@@ -1,0 +1,12 @@
+const express=require("express")
+const { getProduct, getProductDetail, createProduct, updateProduct, deleteProduct, deleteProductMany, getProductOne, countDocument } = require("../controllers/product.controller.js")
+const route=express.Router()
+route.get('/',getProduct)
+route.get('/:id',getProductDetail)
+route.get('/id/:id',getProductOne)
+route.post('/',createProduct)
+route.put('/:id',updateProduct)
+route.delete('/:id',deleteProduct)
+route.delete('/',deleteProductMany)
+route.get('/:id/count',countDocument)
+module.exports=route

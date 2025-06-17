@@ -1,4 +1,4 @@
-const User = require('./User'); // No .js extension needed in Node.js
+const User = require('./User.js'); // No .js extension needed in Node.js
 const { add, subtract, Calculator } = require('./MultipleCommonJS.js');
 
 console.log(add(2, 3));            // 5

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+body{
+   font-family: "DM Sans", sans-serif;
+}
+nav{
+   z-index: 10001 !important;
+}
+.gradientBy{
+   background: linear-gradient(99deg,rgba(165, 14, 107, 0.667) 0%);
+}

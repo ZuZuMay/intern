@@ -1,0 +1,19 @@
+{
+  "name": "express-app",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/index",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^4.21.2",
+    "multer": "^2.0.1",
+    "nodemon": "^3.1.10"
+  }
+}

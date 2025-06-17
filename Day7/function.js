@@ -14,3 +14,30 @@ function handleData(error,data) {
 }
 
 fetchData(handleData);
+////no fun name
+const sayHello = () => "Hello, World!";
+
+// call the arrow function and print its return value
+console.log(sayHello());  
+
+
+//////arrow function as expression
+let age = 5;
+// use arrow functions as expressions in ternary operator 
+// to dynamically assign functionality
+let welcome = (age < 18) ?
+    () => console.log("Child") :
+    () => console.log("Adult");
+
+welcome(); 
+
+let person = {
+    name: "Jack",
+    age: 25,
+
+    sayAge: (a) => {
+        console.log(a);
+    }
+}
+
+person.sayAge(5); // undefined

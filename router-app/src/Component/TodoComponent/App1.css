@@ -1,0 +1,83 @@
+.root{
+margin:0;
+padding:0;
+}
+.container{
+  background: linear-gradient(#66c876);
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background-color:lightpink;
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 3px 6px 40px #000000;
+  margin-bottom: 10px;
+}
+.header h1{
+  color:darkorange;
+  text-align: center;
+  margin: 30px 0;
+}
+.text-input{
+  outline: none;
+  width: 260px;
+  margin-right:50px;
+  font-size: 20px;
+  color:lightgreen;
+  margin-left: 200;
+  background-color: lightcoral;
+  border: 1px solid lightsalmon;
+  border-radius: 10px;
+}
+
+.list-item{
+  display:flex;
+  margin:20px 0;
+  border:1px dolid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+  display:flex;
+
+}
+.button-complete{
+  color:#ff6c6c;
+  margin-right: 30px
+  
+  ;
+}
+.button-edit{
+  color:#e2d029;
+  margin-right: 30px;
+}
+.button-delete{
+  color:darkgreen;
+}
+.complete{
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color:darkgoldenrod;
+  color:darkslateblue;
+  opacity: 0.6;
+}
+.list{
+  width: 220px;
+  background-color: darkmagenta;
+  border: 0;
+  color:#7f9108;
+  font-size: 30px;
+  padding-left: 5px;
+  display:flex;
+
+}
+input:focus,
+button.focus{
+  outline:none
+}
